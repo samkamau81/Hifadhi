@@ -1,14 +1,17 @@
+//This is the LoRa Receiver Code
+//The transceiver in use in Semtech SX1278 LoRa Module
+
 #include <Arduino.h>
+#include <lora.h>
+#include <database.h>
 
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(LED_BUILTIN,OUTPUT);
-}
+int main(){
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(LED_BUILTIN,HIGH);
-  delay(1000);
-  digitalWrite(LED_BUILTIN,LOW);
-  delay(1000);
+
+
+
+
+
+
+
 }
